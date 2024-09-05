@@ -9,6 +9,7 @@ gh auth login
 git config user.name "TammyH-crypto"
 git config user.email "tmhiggins1986@gmail.com"
 git push -u origin main
-git commit -m "changes made to all files"
+git commit -m "changes made to readme files"
 
 git add .
+git push origin main
