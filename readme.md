@@ -8,5 +8,7 @@ curl -sS https://webi.sh/gh | sh
 gh auth login
 git config user.name "TammyH-crypto"
 git config user.email "tmhiggins1986@gmail.com"
-git add .
 git push -u origin main
+git commit -m "changes made to all files"
+
+git add .
