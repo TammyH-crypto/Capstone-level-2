@@ -13,3 +13,7 @@ git commit -m "changes made to readme files"
 
 git add .
 git push origin main
+
+git add README.md
+
+
