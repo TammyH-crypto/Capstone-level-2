@@ -9,7 +9,7 @@ git remote add origin https://github.com/TammyH-crypto/capstone-projectmv3ybsyp0
 curl -sS https://webi.sh/gh | sh
 gh auth login
 git push -u origin main
-git commit -m "changes made to readme files"
+
 
 //add changes made to read.me file
 git add README.md
@@ -21,7 +21,13 @@ git add .
 git commit -m "changes made to readme files"
 
 //sync changes to github
-git push origin main
+git push
+
+//for use with vscode to pull files from github
+git pull --set-upstream origin main 
+
+//copy the files from github with default parameters
+git pull
 
 //view the value of origin
 git remote -v
@@ -40,4 +46,3 @@ git --version
 
 //renames current branch to main
 git branch -M main
-
