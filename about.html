@@ -65,8 +65,47 @@
   //storing result
 result = "apple" ==="orange"
 </script>
+    <h1>prompt</h1>   
+  <script>
     
-    
+ 
+     /************
+  Create a loop that goes until user inputs "stop".
+  
+  Steps:
+  1. Start a loop
+  2. Prompt the user for a word
+  3. Store the response in usertext
+  4. Compare does usertext match "stop?"
+  5. Store it in done
+  6. While not done repeat the loop
+  
+  Pseudo:
+  Start loop 
+    usertext = prompt("Enter a word")
+     Compare does isdone equal "stop"
+     Store it in done
+  While not done, repeat
+  
+ ****************/
+  
+  //Steps: Start a loop
+  //Pseudo: Start loop
+  do { 
+  
+  //Steps: Prompt the user for a word. Store the response in usertext
+  //Pseudo: usertext = prompt("Enter a word")
+   usertext = prompt("Enter a word");
+  
+  //Steps: Compare does usertext match "stop?". Store it in done
+  //Pseudo: Compare does isdone equal "stop"
+  isDone = usertext === "stop";
+  
+  //Steps: While not done repeat the loop
+  //Pseudo: While not isdone, repeat
+  }  while (!isDone);  
+
+</script>  
     
   </body>
   <main>
