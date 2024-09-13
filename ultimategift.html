@@ -14,6 +14,9 @@
   ></script>
     <title>JNeverending Story</title>
     <style>
+      body {
+        background-color: pink
+      }
       nav {
         font-size: 3vw;
       }
@@ -29,25 +32,23 @@
     </style>
   </head>
 
-  <body class="p-2" id="top">
-    <div class="alert alert-success alert-dismissible m-1">
-    Come check out my best products and prices!<button
-      class="btn-close" data-bs-dismiss="alert"
-    ></button>
-  </div>
+  <body class="p-1" id="top">
+   
     <header>
-      <nav class="nav nav-underline">
-        <a class="nav-link" href="neverendingstory.html">Previous</a>
+      <nav class="nav">
+        <a class="nav-link bg-dark" href="neverendingstory.html">Previous</a>
         <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="eightseconds.html">Next</a>
       </nav>
     </header>
-<a href="spinner.html"></a>
-    <div class="spinner-grow text-success"></div>
-    
-    <main>
+     <div class="alert alert-warning alert-dismissible m-1">
+   Movie about love and giving all you have to a deserving person!<button
+      class="btn-close" data-bs-dismiss="alert"
+    ></button>
+  </div>
+ <main>
       <u><h1>The Ultimate Gift</h1></u>
-      <h2 id="actors">Actors</h2>
+      <h2 class="fs-4" id="actors">Actors</h2>
       <table>
         <tr>
           <td>
@@ -56,7 +57,7 @@
               src="https://c.televisionstats.com/t/p/w154/8NhujIOiLgzR0XiFkMRXEVtSXse.jpg"
             />
             <br />
-           <u><h4>Drew Fuller</h4></u>
+           <u><h4 class="m-3" >Drew Fuller</h4></u>
             <p>
               Lorem ipsum odor amet, consectetuer adipiscing elit. Nisi sed
               efficitur pulvinar rutrum placerat a magnis condimentum. Efficitur
@@ -73,7 +74,7 @@
               src="https://c.televisionstats.com/t/p/w154/jlSTX9ZzLdkP9JS75B0diyOppzR.jpg"
             />
             <br />
-          <u><h4>Abigail Breslin</h4></u> 
+          <u><h4 class="m-3" >Abigail Breslin</h4></u> 
             <p>
               Lorem ipsum odor amet, consectetuer adipiscing elit. Ligula fames
               magna erat luctus tincidunt pharetra enim. Elementum nibh magnis
@@ -90,7 +91,7 @@
               src="https://c.televisionstats.com/t/p/w154/hiPky3VwIOAlmPhJwzRovEsGDrI.jpg"
             />
             <br />
-           <u><h4>James Garner</h4></u>
+           <u><h4 class="m-3" >James Garner</h4></u>
             <p>
               Lorem ipsum odor amet, consectetuer adipiscing elit. Luctus
               sociosqu maximus aenean nascetur conubia habitant. Faucibus
@@ -105,11 +106,11 @@
       </table>
       <form>
         <h1>Rate this movie</h1>
-        <input id="thumbsUp" type="radio" name="my group 1" /><label
+        <input id="thumbsUp" type="radio" name="my group 1" /><label class="fs-3"
           for="thumbs Up"
           >thumbsUp</label
         >
-        <input id="thumbsDown" type="radio" name="my group 1" /><label
+        <input id="thumbsDown" type="radio" name="my group 1" /><label class="fs-3"
           for="thumbs Down"
           >thumbsDown</label
         >
