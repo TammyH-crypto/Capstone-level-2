@@ -86,10 +86,11 @@ function ask(myMessage) {
     //Typeof string = Tells you what what string is being used by the variable
  
     typeof 37 === "number";
- ******************/
+ 
  //operators
  
  22 >= 85 =
  
  68 != 15 =
 
+******************/
