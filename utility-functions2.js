@@ -4,18 +4,25 @@ function display(Hello) {
   document.write(Hello);
 }
 // is NaN
+ //Ask function that never changes
+  function ask(message) {
+    const usertext = prompt(message);
+    const userNumber = Number(userText);
+    const isNotNumber = isNaN(usernumber);
+    userText = "nine"
+    if (isNotNumber) {
+      return userText;
+    } else {
+      return userNumber;
+    }
+    
+  } 
+//inner HTML = Creates a HTML element that displays to the browser.
 
- if (isntNumber) {
-    return userText;
-  } else {
-    return userNumber;
-  }
-//inner HTML
-
-}
 function output(Beautiful) {  
     window.outputTag.innerHTML = window.outputTag.innerHTML + message;
 }
+
 //Variable
 
 function ask(myMessage) {
@@ -23,13 +30,15 @@ function ask(myMessage) {
  var userNumber = Number(userText);
  var isntNumber = isNaN(userNumber);
   
+  
   //let function
   
-  function ask(myMessage) {
+ function userContent(myMessage) {
  let userText = prompt(myMessage);
  let userNumber = Number(userText);
  let isntNumber = isNaN(userNumber);
-    
+  
+}
          //Boolean string = only has two values true or false
 
          Boolean 62 < 48 = true;
