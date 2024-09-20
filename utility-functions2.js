@@ -5,6 +5,7 @@ function display(Hello) {
 }
 // is NaN
  //Ask function that never changes
+
   function ask1(message) {
     const usertext = prompt(message);
     const userNumber = Number(userText);
@@ -23,7 +24,7 @@ function output(Beautiful) {
     window.outputTag.innerHTML = window.outputTag.innerHTML + message;
 }
 
-//Variable function = Within the function means it can only be accessed inside that function
+//Variable function = Can be redeclared within the scope. 
 
 function ask(myMessage) {
  var userText = prompt(myMessage);
@@ -31,7 +32,7 @@ function ask(myMessage) {
  var isntNumber = isNaN(userNumber);
   
   
-  //let function = 
+  //let function = Cannot be redeclared within the scope
   
  function userContent(myMessage) {
  let userText = prompt(myMessage);
@@ -41,8 +42,8 @@ function ask(myMessage) {
 }
          //Boolean string = only has two values true or false
 
-         Boolean true;
-         Boolean false;
+         Boolean ishard = true;
+         Boolean isfun = false;
 
          //Number strings can be either complex or simple.They represent numerical values
 
