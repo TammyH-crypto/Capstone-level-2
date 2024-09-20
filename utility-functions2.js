@@ -60,14 +60,14 @@ function ask(myMessage) {
 
          //Number strings can be either complex or simple.They represent numerical values
 
-         let x = 456;   //Integer String
-         let y = 4.56;  //floating string
+         let x = 456;   Integer String
+         let y = 4.56;  floating string
 
          //Array strings = They represent a value that cannot be changed in java but can hold more than one value
 
-      //  lowesList = ["wood", "nails", "glue", "dog food"];
-      //  position = 2;
-      //  document.write(lowesList.length + " ")
+       lowesList = ["wood", "nails", "glue", "dog food"];
+       position = 2;
+       document.write(lowesList.length + " ")
 
          //Template string = Allows single or multiple lines of text to be used in one string
 
@@ -77,14 +77,19 @@ function ask(myMessage) {
 
       //Object string = Assigns values to an object
 
-      //myHouse = {Brick};
-      //myHouse.color = "Red";
-      //myHouse.forsale = false;
-      //myHouse.rooms = 4
+      myHouse = {Brick};
+      myHouse.color = "Red";
+      myHouse.forsale = false;
+      myHouse.rooms = 4
  }   
     
     //Typeof string = Tells you what what string is being used by the variable
  
     typeof 37 === "number";
+ ******************/
+ //operators
  
-******************/
+ 22 >= 85 =
+ 
+ 68 != 15 =
+
