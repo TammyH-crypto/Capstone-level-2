@@ -67,7 +67,9 @@ function ask(myMessage) {
       myHouse.color = "Red";
       myHouse.forsale = false;
       myHouse.rooms = 4
+ }   
     
-    
-    
-}
+    //Typeof string = Tells you what what string is being used by the variable
+ 
+    typeof 37 === "number";
+ 
