@@ -23,7 +23,7 @@ function output(Beautiful) {
     window.outputTag.innerHTML = window.outputTag.innerHTML + message;
 }
 
-//Variable
+//Variable function = Within the function means it can only be accessed inside that function
 
 function ask(myMessage) {
  var userText = prompt(myMessage);
@@ -31,7 +31,7 @@ function ask(myMessage) {
  var isntNumber = isNaN(userNumber);
   
   
-  //let function
+  //let function = 
   
  function userContent(myMessage) {
  let userText = prompt(myMessage);
