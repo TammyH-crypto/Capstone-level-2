@@ -5,7 +5,7 @@ function display(Hello) {
 }
 // is NaN
  //Ask function that never changes
-  function ask(message) {
+  function ask1(message) {
     const usertext = prompt(message);
     const userNumber = Number(userText);
     const isNotNumber = isNaN(usernumber);
@@ -41,8 +41,8 @@ function ask(myMessage) {
 }
          //Boolean string = only has two values true or false
 
-         Boolean 62 < 48 = true;
-         Boolean (day == night) = false;
+         Boolean true;
+         Boolean false;
 
          //Number strings can be either complex or simple.They represent numerical values
 
