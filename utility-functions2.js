@@ -1,7 +1,7 @@
 //document.write
 
-function display(message) {
-  document.write(message);
+function display(Hello) {
+  document.write(Hello);
 }
 // is NaN
 
@@ -13,7 +13,7 @@ function display(message) {
 //inner HTML
 
 }
-function output(message) {  
+function output(Beauti) {  
     window.outputTag.innerHTML = window.outputTag.innerHTML + message;
 }
 //Variable

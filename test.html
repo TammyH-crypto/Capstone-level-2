@@ -1,117 +1,113 @@
-   
-     <script>
-debugger;
-       
-       //Steps: Store 8 in x
-             //Pseudo: x = 8
-             x = 8;
+<script>
+  debugger;
 
-              //Steps: Store 3 in y
-              //Pseudo: y = 3
-             y = 3;
+         //Steps: Store 8 in x
+               //Pseudo: x = 8
+               x = 8;
 
-              //Steps: Compare if x is less than or equal to y
-              //Pseudo: Is x less than or equal to y
-             result = x <= y;
+                //Steps: Store 3 in y
+                //Pseudo: y = 3
+               y = 3;
 
-              //Steps: Display my result
-              //Pseudo: Display result
+                //Steps: Compare if x is less than or equal to y
+                //Pseudo: Is x less than or equal to y
+               result = x <= y;
 
-             document.write(result)
- 
-          //less than or equal to
-             count = 0;
+                //Steps: Display my result
+                //Pseudo: Display result
 
-             while (count <= 100 + "<br>") {
+               document.write(result)
 
-              document.write(count + "<br>");
-               count = count + 5;
-             }
+            //less than or equal to
+               count = 0;
 
-              for (count = 0; count <= 100; count = count + 5) {
-               document.write(count + "<br>")
+               while (count <= 100 + "<br>") {
 
-             }
+                document.write(count + "<br>");
+                 count = count + 5;
+               }
 
-     //do while ++ !==
-            document.write("start" + "<br>");
+                for (count = 0; count <= 100; count = count + 5) {
+                 document.write(count + "<br>")
+
+               }
+
+       //do while ++ !==
+              document.write("start" + "<br>");
 
 
-             myCount = 4;
+               myCount = 4;
+               do {
+                 myCount++;
+                 document.write(myCount + "<br>");
+
+               } while (myCount !== 5 );
+
+               document.write("end" + "<br>");
+
+    //do while prompts repeat themselves until the prompt is fufilled
+
+             /************
+         Create a loop that goes until user inputs "stop".
+
+         Steps:
+         1. Start a loop
+         2. Prompt the user for a word
+         3. Store the response in usertext
+         4. Compare does usertext match "stop?"
+         5. Store it in done
+         6. While not done repeat the loop
+
+         Pseudo:
+         Start loop
+           usertext = prompt("Enter a word")
+            Compare does isdone equal "stop"
+            Store it in done
+         While not done, repeat
+
+        ****************/
+
+             //Steps: Start a loop
+             //Pseudo: Start loop
              do {
-               myCount++;
-               document.write(myCount + "<br>");
+               //Steps: Prompt the user for a word. Store the response in usertext
+               //Pseudo: usertext = prompt("Enter a word")
+               usertext = prompt("Enter a word");
 
-             } while (myCount !== 5 );
+               //Steps: Compare does usertext match "stop?". Store it in done
+               //Pseudo: Compare does isdone equal "stop"
+               isDone = usertext === "stop";
 
-             document.write("end" + "<br>");
-  
-  //do while prompts repeat themselves until the prompt is fufilled
- 
-           /************
-       Create a loop that goes until user inputs "stop".
+               //Steps: While not done repeat the loop
+               //Pseudo: While not isdone, repeat
+             } while (!isDone);
 
-       Steps:
-       1. Start a loop
-       2. Prompt the user for a word
-       3. Store the response in usertext
-       4. Compare does usertext match "stop?"
-       5. Store it in done
-       6. While not done repeat the loop
+         //Boolean string = only has two values true or false
 
-       Pseudo:
-       Start loop
-         usertext = prompt("Enter a word")
-          Compare does isdone equal "stop"
-          Store it in done
-       While not done, repeat
+         Boolean 62 < 48 = true;
+         Boolean (day == night) = false;
 
-      ****************/
+         //Number strings can be either complex or simple.They represent numerical values
 
-           //Steps: Start a loop
-           //Pseudo: Start loop
-           do {
-             //Steps: Prompt the user for a word. Store the response in usertext
-             //Pseudo: usertext = prompt("Enter a word")
-             usertext = prompt("Enter a word");
+         let x = 456; Integer string
+         let y = 4.56; floating string
 
-             //Steps: Compare does usertext match "stop?". Store it in done
-             //Pseudo: Compare does isdone equal "stop"
-             isDone = usertext === "stop";
+         //Array strings = They represent a value that cannot be changed in java but can hold more than one value
 
-             //Steps: While not done repeat the loop
-             //Pseudo: While not isdone, repeat
-           } while (!isDone);
+        lowesList = ["wood", "nails", "glue", "dog food"];
+        position = 2;
+        document.write(lowesList.length + " ")
 
-       //Boolean string = only has two values true or false
-       
-       Boolean 62 < 48 = true;
-       Boolean (day == night) = false;
+         //Template string = Allows single or multiple lines of text to be used in one string
 
-       //Number strings can be either complex or simple.They represent numerical values
-       
-       let x = 456; Integer string 
-       let y = 4.56; floating string
-       
-       //Array strings = They represent a value that cannot be changed in java but can hold more than one value
-      
-      lowesList = ["wood", "nails", "glue", "dog food"];
-      position = 2;
-      document.write(lowesList.length + " ")
+        const userName = "Tammy";
+        const myString = "Hello ${userName}! How are you?";
+        }
 
-       //Template string allows multiple lines of text to be used
-       
-        //Template string
-      const userName = "Tammy";
-      const myString = "Hello ${userName}! How are you?";
-      }
-    
-    //Object string
-    
-    myCar = {};
-    myCar.color = "blue";
-    myCar.forsale = false;
-    myCar.year = 2024
+      //Object string = Assigns values to an object
 
-       
-    </script>
+      myHouse = {Brick};
+      myHouse.color = "Red";
+      myHouse.forsale = false;
+      myHouse.rooms = 4
+</script>
