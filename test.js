@@ -49,7 +49,7 @@
 
                document.write("end" + "<br>");
 
-    //do while prompts repeat themselves until the prompt is fufilled
+    //do while prompts repeat themselves until the prompt is fufilled/Boolean
 
              /************
          Create a loop that goes until user inputs "stop".
