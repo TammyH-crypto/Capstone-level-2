@@ -1,4 +1,4 @@
-<script>
+
   debugger;
       //Number 
   
@@ -86,4 +86,3 @@
                //Pseudo: While not isdone, repeat
              } while (!isDone);
 
-</script>
