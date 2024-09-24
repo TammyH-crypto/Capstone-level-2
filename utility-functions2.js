@@ -3,6 +3,7 @@
 
 //My utility function
 //function scope allows user to reuse any variable over again within the curly braces
+
 function temporary2 () {
   const x = 15
   document.write(x)
@@ -53,43 +54,9 @@ function ask(myMessage) {
  let isntNumber = isNaN(userNumber);
   
 }
-         //Boolean string = only has two values true or false
 
-         Boolean red <= blue = true;
-         Boolean 9 < 15 = false;
+      
 
-         //Number strings can be either complex or simple.They represent numerical values
+  
 
-         let x = 456;   Integer String
-         let y = 4.56;  floating string
-
-         //Array strings = They represent a value that cannot be changed in java but can hold more than one value
-
-       lowesList = ["wood", "nails", "glue", "dog food"];
-       position = 2;
-       document.write(lowesList.length + " ")
-
-         //Template string = Allows single or multiple lines of text to be used in one string
-
-        const userName = "Tammy";
-        const myString = "Hello ${userName}! How are you?";
-        }
-
-      //Object string = Assigns values to an object
-
-      myHouse = {};
-      myHouse.color = "Red";
-      myHouse.forsale = false;
-      myHouse.rooms = 4
- }   
-    
-    //Typeof string = Tells you what what string is being used by the variable
  
-    typeof 37 === "number";
- 
- //operators
- 
- 22 >= 85 =
- 
- 68 != 15 =
-
