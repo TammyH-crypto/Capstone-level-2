@@ -1,4 +1,4 @@
-/************
+
   
 
 //My utility function
@@ -77,7 +77,7 @@ function ask(myMessage) {
 
       //Object string = Assigns values to an object
 
-      myHouse = {Brick};
+      myHouse = {};
       myHouse.color = "Red";
       myHouse.forsale = false;
       myHouse.rooms = 4
@@ -93,4 +93,3 @@ function ask(myMessage) {
  
  68 != 15 =
 
-******************/
