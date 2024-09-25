@@ -73,7 +73,11 @@ const finalText = `Today, I went to the zoo with my ${object[0]} friend, ${objec
 Later, we visited the ${object[7]} where the ${object[8]} was ${object[9]} and juggling ${object[10]}! I couldn’t believe my eyes when it started to ${object[11]} on a unicycle!
 
 After that, we had ${object[12]} for lunch, and I accidentally dropped mine on a ${object[13]} ${object[14]}. It was a ${object[15]} disaster, but we couldn't stop ${object[16]} with laughter!`;
+display(finalText)
+
 }
+
+
 
 //Today, I went to the zoo with my (adjective) friend, (name). We saw a (adjective) (silly animal) that was (verb ending in -ing) while wearing a tiny hat! It made a really (adjective) sound like a (silly noise).
 
