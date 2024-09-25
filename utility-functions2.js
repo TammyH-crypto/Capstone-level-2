@@ -61,14 +61,18 @@ function ask(myMessage) {
         const userName = "Tammy";
         const myString = "Hello ${userName}! How are you?";
   
+  
 function ask(wordType){
   var userAnswer = prompt("give me a " + wordType)
   return userAnswer
 }
  
 function game(){
-  const array =["adjective","name","adjective","silly animal","verb ending in -ing", "adjective","silly noise","place in the zoo","animal","verb","funny item","verb","food", "adjective","animal","adjective","verb ending in -ing"]
-for (count = 0; count
+ const array =["adjective","name","adjective","silly animal","verb ending in -ing", "adjective","silly noise","place in the zoo","animal","verb","funny item","verb","food", "adjective","animal","adjective","verb ending in -ing"]
+ var object = {}
+ for (count = 0; count < 17; count++) {
+  
+}
 }
   
 
