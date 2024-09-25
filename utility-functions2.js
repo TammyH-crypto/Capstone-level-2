@@ -66,6 +66,15 @@ function ask(wordType){
   return userAnswer
 }
  
-function game
+function game(){
+  const array =["adjective","name","adjective","silly animal","verb ending in -ing", "adjective","silly noise","place in the zoo","animal","verb","funny item","verb","food", "adjective","animal","adjective","verb ending in -ing"]
+for (count = 0; count
+}
   
-  
+
+
+//Today, I went to the zoo with my (adjective) friend, (name). We saw a (adjective) (silly animal) that was (verb ending in -ing) while wearing a tiny hat! It made a really (adjective) sound like a (silly noise).
+
+//Later, we visited the (place in the zoo) where the (animal) was (verb) and juggling (funny item)! I couldn’t believe my eyes when it started to (verb) on a unicycle!
+
+//After that, we had (food) for lunch, and I accidentally dropped mine on a (adjective) (animal). It was a (adjective) disaster, but we couldn't stop (verb ending in -ing) with laughter!
