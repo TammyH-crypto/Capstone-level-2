@@ -19,7 +19,7 @@ function display(Hello) {
   document.write(Hello);
 }
 // is NaN = Returns the value of a text to not a number
-{}
+
   function ask1(message) {
     const usertext = prompt(message);
     const userNumber = Number(userText);
