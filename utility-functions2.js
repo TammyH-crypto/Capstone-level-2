@@ -61,5 +61,10 @@ function ask(myMessage) {
         const userName = "Tammy";
         const myString = "Hello ${userName}! How are you?";
   
-
+function ask(wordType){
+  var userAnswer = prompt("give me a " + wordType)
+  return userAnswer
+}
  
+function game
+  
