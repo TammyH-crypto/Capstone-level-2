@@ -68,3 +68,4 @@ function ask(wordType){
  
 function game
   
+  
