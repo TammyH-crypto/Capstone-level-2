@@ -38,6 +38,8 @@ function userContent(myMessage) {
 const userName = "Tammy";
 const myString = "Hello ${userName}! How are you?";
 
+debugger;
+
 function ask(wordType) {
   var userAnswer = prompt("give me a " + wordType);
   return userAnswer;
