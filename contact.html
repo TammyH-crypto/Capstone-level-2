@@ -7,12 +7,15 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    
     <title>My favorite movies</title>
+    <script src="forms.js"></script>
+    <script src="forms.html"></script>
     <link href= "styles.css" rel="stylesheet">
   </head>
   <body>
      <header id="top">
-      
+    
        <nav class="nav justify-content-end">
               <a class="nav-link fw-bold bg-warning fs-5 " href="neverendingstory.html">Previous</a>
               <a class="nav-link fw-bold bg-success text-dark fs-5" href="index.html">Home</a>
@@ -32,13 +35,15 @@
        
       <form>
         <label class= "border border-1 border-primary" for="email">Email:</label> <br />
-        <input class="border border-2 border-secondary rounded" type="text" id="email" />
+        <input class="border border-2 border-secondary rounded" type="email" id="email" />
+        <input type="submit">
         <p></p>
         <br />
         
         <label class="border border-3 border-success" for="number">Number:</label>
         <br>
-        <input class="border border-4 border-danger rounded-circle" type="text" id="number" />
+        <input class="border border-4 border-danger rounded-circle" type="number" id="number" />
+        <input type="submit">
         <p></p>
         <textarea class="border border-5 border-warning rounded-pill" id="comments">Comments:</textarea>
         <br />
@@ -51,3 +56,4 @@
     </main>
   </body>
 </html>
+
