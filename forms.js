@@ -1,13 +1,16 @@
 function myprocessform(event) {
     debugger;
-output("form processed");
+
 event.preventDefault();
 const form = event.target;
-const emailInput = form[0];
-const numberInput = form[1];
-const commentsInput = form[2];
+const firstName = form[0].value;
+const lastName = form[1].value;
+const phoneNumber = form[2].value;
+const date = form[3].value;
+const time = form[4].value;
 
-output( `Your email is ${value} <br>`);
+
+alert( `Hello ${firstName} you picked this day ${date} at ${time}`);
 }
 
 
