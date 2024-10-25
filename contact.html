@@ -9,6 +9,7 @@
     />
     <title>My favorite movies</title>
     <link href= "styles.css" rel="stylesheet">
+    <script src="utility-functions2.js"></script>
   </head>
   <body>
      <header id="top">
@@ -30,7 +31,7 @@
           
       
        
-      <form>
+      <form onsubmit="displayMessage(event)">
         <label class= "border border-1 border-primary" for="email">Email:</label> <br />
         <input class="border border-2 border-secondary rounded" type="text" id="email" />
         <p></p>
@@ -44,7 +45,9 @@
         <br />
         <br />
        
-        <button class="btn btn-info fs-6">Submit</button>
+        <button  class="btn btn-info fs-6">Submit</button>
+        
+        <div class="alert alert-warning alert-dismissible" `Hello we will contact you at ${email}`></div>
       </form>
 </article>
       <footer class="fst-italic text-danger">Website created by Tammy Higgins</footer>
