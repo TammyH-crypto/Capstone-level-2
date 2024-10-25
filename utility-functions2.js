@@ -38,7 +38,7 @@ function userContent(myMessage) {
 const userName = "Tammy";
 const myString = "Hello ${userName}! How are you?";
 
-debugger;
+
 
 function ask(wordType) {
   var userAnswer = prompt("give me a " + wordType);
@@ -79,6 +79,11 @@ display(finalText)
 
 }
 
+function displayMessage(event) {
+  event.preventDefault()
+  const form=event.target
+  alert(`"Hello we will contact you shortly at ${form[1].value}"`)
+}
 
 
 //Today, I went to the zoo with my (adjective) friend, (name). We saw a (adjective) (silly animal) that was (verb ending in -ing) while wearing a tiny hat! It made a really (adjective) sound like a (silly noise).
