@@ -38,14 +38,15 @@
       <form onsubmit="displayMessage(event)">
         <label class= "border border-1 border-primary" for="email">Email:</label> <br />
         <input class="border border-2 border-secondary rounded" type="email" id="email" />
-        <input type="submit">
+        
         <p></p>
         <br />
         
         <label class="border border-3 border-success" for="number">Number:</label>
-        <br>
-        <input class="border border-4 border-danger rounded-circle" type="number" id="number" />
-        <input type="submit">
+        <input class="border border-4 border-danger rounded-circle" type="tel" id="number" 
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4} " maxlength="12"
+        />
+      
         <p></p>
         <textarea class="border border-5 border-warning rounded-pill" id="comments">Comments:</textarea>
         <br />
@@ -53,7 +54,7 @@
        
         <button  class="btn btn-info fs-6">Submit</button>
         
-        <div class="alert alert-warning alert-dismissible" `Hello we will contact you at ${email}`></div>
+        <div class="alert alert-warning alert-dismissible" (`Hello we will contact you at ${###-###-####}`)></div>
       </form>
 </article>
       <footer class="fst-italic text-danger">Website created by Tammy Higgins</footer>
