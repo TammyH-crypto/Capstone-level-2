@@ -1,4 +1,3 @@
-
 #email {
   width: 50%;
 }
@@ -12,17 +11,37 @@
 }
 
 h1 {
-  color: green;
+  color: rgb(8, 65, 8);
 }
 
 p b {
-  color: blue;
+  color: rgb(13, 13, 230);
 }
 
-pre code {
+ul li {
   color: red;
 }
 
-pre i {
-  color: purple;
+pre {
+  color: rgb(207, 15, 207);
+}
+
+.bg-image {
+  background-image: url("Ns.jpg");
+}
+
+.height {
+  height: 200%;
+}
+
+.width {
+  width: 200%;
+}
+
+@font-face {
+  font-family: "Halloween-fonts";
+  src: url(Halloween-fonts.jpg);
+}
+.opacity {
+  opacity: 0.9;
 }

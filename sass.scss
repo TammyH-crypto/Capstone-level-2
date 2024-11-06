@@ -1,12 +1,30 @@
+$primaryFont: "Halloween-fonts";
+$secondaryFont: fantasy;
 
-.box-shadow {
-  @include boxshadow;
-  @include textShadow;
-}
-#mixin-button {
-@include animation1;
-}
 
+@mixin boxshadow {
+  box-shadow: 2px 2px grey;
+}
+@mixin textShadow {
+    text-shadow: 3px 3px yellow;
+}
+@mixin animation1 {
+     transform: scale(1) rotate(0deg);
+    transition: transform 1s;
+}
+@mixin animation2 {
+    transform: scale(2) rotate(15deg);
+    transition: transform 2s;
+}
+@mixin animation {
+    transform: scale(1) rotate(0deg);
+   transition: transform 1s;
+
+   &:hover {
+    transform: scale(0.5) rotate(-10deg);
+    transition: transform 2s;
+}
+   }
 #email {
   width: 50%;
  
@@ -17,9 +35,12 @@
 #comments {
   width: 60%;   
 }
+$darkgreen: rgba(8, 65, 8);
+
 h1 {
   color: $darkgreen;
 }
+$blue: rgba(13, 13, 230);
 p b {
   color: $blue;
 }
@@ -29,20 +50,27 @@ ul {
       }
 }
 
-$myColor: purple;
+$myColor: rgba(207, 15, 207);
 
 pre {
-  i {
     color: $myColor;
-  }
 }
 $moviePoster: url("Ns.jpg");
 .bg-image {
     background-image: $moviePoster;
 }
 .height {
-  height: 100%;
+  height: 200%;
 }
 .width {
   width: 200%;
+}
+
+@font-face {
+  font-family: "Halloween-fonts";
+  src: url(Halloween-fonts.jpg);
+  }
+  
+  .opacity {
+    opacity: 0.90;
 }
