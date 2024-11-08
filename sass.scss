@@ -1,9 +1,8 @@
-$primaryFont: "Halloween-fonts";
+$primaryFont: "halloween";
 $secondaryFont: fantasy;
 
-
 @mixin boxshadow {
-  box-shadow: 2px 2px grey;
+  box-shadow: 2px 2px rgb(209, 31, 31);
 }
 @mixin textShadow {
     text-shadow: 3px 3px yellow;
@@ -68,7 +67,7 @@ $moviePoster: url("Ns.jpg");
 
 @font-face {
   font-family: "Halloween-fonts";
-  src: url(Halloween-fonts.jpg);
+  src: url(halloween.jpg);
   }
   
   .opacity {
