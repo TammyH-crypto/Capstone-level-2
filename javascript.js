@@ -1,3 +1,13 @@
+function makePromise() {
+    const promise = new Promise(myFunction);
+    promise.then(getMessage);
+    display("Made a promise.");
+    }
+    
+    function getMessage(resolveValue) {
+    display(resolveValue)
+    }
+
 function handleSubmit(event) {
     event.preventDefault();
     const inputs = event.target;
