@@ -18,6 +18,9 @@ p b {
   color: rgb(13, 13, 230);
 }
 
+ul {
+  padding: 1;
+}
 ul li {
   color: red;
 }
@@ -44,4 +47,47 @@ pre {
 }
 .opacity {
   opacity: 0.9;
+}
+
+.box-shadow {
+  box-shadow: 2px 2px grey;
+  text-shadow: 3px 3px yellow;
+}
+
+.text-shadow {
+  text-shadow: 3px 3px yellow;
+}
+
+#mixin-button {
+  transform: scale(1) rotate(0deg);
+  transition: transform 1s;
+  transform: scale(1) rotate(0deg);
+  transition: transform 1s;
+}
+#mixin-button:hover {
+  transform: scale(0.5) rotate(-10deg);
+  transition: transform 2s;
+}
+
+#mixin-button:hover {
+  transform: scale(2) rotate(15deg);
+  transition: transform 2s;
+}
+
+#animated-button {
+  transform: scale(1) rotate(0deg);
+  transition: transform 1s;
+  transform: scale(1) rotate(0deg);
+  transition: transform 1s;
+}
+#animated-button:hover {
+  transform: scale(0.5) rotate(-10deg);
+  transition: transform 2s;
+}
+
+#animated-button:hover {
+  transform: scale(0.5) rotate(-10deg);
+  transition: transform 2s;
+  transform: scale(1) rotate(0deg);
+  transition: transform 1s;
 }
